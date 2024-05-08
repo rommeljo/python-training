@@ -32,11 +32,10 @@ for i in range(1,51):
         even.append(i)
 print(len(even))
 
-ls5= [("Jay", 20), ("Mo", 30), ("Mya", 32) ]
-numbers=ls5[0][1],ls5[1][1],ls5[2][1]
+ls5= [("Jay", 20), ("Mo", 30), ("Mya", 32),("John",90),("Mary",1000),("Don",8000)]
 total=0
-for i in numbers:
-        total+=i
+for i in ls5:
+        total+=i[1]
 print(total)
 
 
