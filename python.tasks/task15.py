@@ -14,7 +14,7 @@ def nh(x):
     
         elif Gross_Salary>= 8000 and Gross_Salary <= 11999 :
          x = 400
-    
+
         elif Gross_Salary>= 12000 and Gross_Salary <= 14999 :
          x = 500
     
